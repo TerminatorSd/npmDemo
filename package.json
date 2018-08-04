@@ -1,0 +1,30 @@
+{
+  "name": "judge_arr",
+  "version": "1.0.4",
+  "description": "A npm pacakge of es6, it's a function of determinating a variable is an array or not.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel -d lib/ src/",
+    "esw": "esw src/* -w",
+    "lint": "eslint src/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "es6", "npm", "arr"
+  ],
+  "devDependencies": {
+    "babel": "^5.5.4",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-watch": "^4.0.2"
+  }
+}
